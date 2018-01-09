@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Nhap vao so nguyen duong: " n
-now=$(date +"%D %T")
+now=$(date +"%Y-%m-%d %H:%M:%S")
 echo "$now"
-chdate=$(date --date="+$n days" +"%D %T")
+chdate=$(date --date="+$n days" +"%Y-%m-%d %H:%M:%S")
 echo "$chdate"
