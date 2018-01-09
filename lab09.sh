@@ -10,6 +10,6 @@ if [ $a -eq 0 ];then
 	echo "Phuong trinh vo nghiem"
     fi
 else
-    x=$(echo "scale=2; -$b/$a" | bc -l)
+    x=$(echo "scale=2; -($b)/$a" | bc -l)
     echo "Phuong trinh co nghiem x = $x"
 fi
